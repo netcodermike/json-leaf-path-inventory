@@ -1,0 +1,26 @@
+{
+  "command": [
+    "node",
+    "app.mjs"
+  ],
+  "expected": {
+    "count": 3,
+    "entries": [
+      {
+        "path": "/a~1b/0",
+        "type": "number",
+        "value": 7
+      },
+      {
+        "path": "/a~1b/1",
+        "type": "object",
+        "value": {}
+      },
+      {
+        "path": "/~0label",
+        "type": "boolean",
+        "value": false
+      }
+    ]
+  }
+}
